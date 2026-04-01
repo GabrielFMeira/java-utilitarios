@@ -1,5 +1,3 @@
-package br.com.agcapital.util;
-
 import jakarta.persistence.Tuple;
 
 import java.lang.reflect.Constructor;
