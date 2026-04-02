@@ -155,11 +155,8 @@ public class TupleUtil {
             normalized == BigDecimal.class ||
             normalized == BigInteger.class ||
             normalized == Long.class ||
-            normalized == Integer.class) {
-            return normalized;
-        }
-
-        if (normalized == Boolean.class ||
+            normalized == Integer.class ||
+            normalized == Boolean.class ||
             normalized == Double.class ||
             normalized == Float.class ||
             normalized == Short.class ||
